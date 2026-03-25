@@ -1,0 +1,94 @@
+{
+  "employees": [
+    {
+      "id": "emp-1",
+      "name": "Andrei Popescu",
+      "role": "site-manager",
+      "score": 92,
+      "competenceLevel": "Expert",
+      "weakAreas": [],
+      "lastActive": "2026-03-24T10:00:00Z",
+      "categoryScores": {
+        "responsibilities": 100,
+        "procedures": 90,
+        "requirements": 95,
+        "scenarios": 85
+      }
+    },
+    {
+      "id": "emp-2",
+      "name": "Elena Ionescu",
+      "role": "site-manager",
+      "score": 68,
+      "competenceLevel": "Needs Development",
+      "weakAreas": ["procedures", "scenarios"],
+      "lastActive": "2026-03-25T08:30:00Z",
+      "categoryScores": {
+        "responsibilities": 80,
+        "procedures": 60,
+        "requirements": 75,
+        "scenarios": 55
+      }
+    },
+    {
+      "id": "emp-3",
+      "name": "Mihai Radu",
+      "role": "ssm-specialist",
+      "score": 85,
+      "competenceLevel": "Competent",
+      "weakAreas": ["requirements"],
+      "lastActive": "2026-03-23T14:20:00Z",
+      "categoryScores": {
+        "responsibilities": 90,
+        "procedures": 85,
+        "requirements": 65,
+        "scenarios": 100
+      }
+    },
+    {
+      "id": "emp-4",
+      "name": "Cristina Vasile",
+      "role": "project-manager",
+      "score": 78,
+      "competenceLevel": "Competent",
+      "weakAreas": ["scenarios"],
+      "lastActive": "2026-03-25T11:45:00Z",
+      "categoryScores": {
+        "responsibilities": 85,
+        "procedures": 80,
+        "requirements": 80,
+        "scenarios": 65
+      }
+    },
+    {
+      "id": "emp-5",
+      "name": "Stefan Marin",
+      "role": "site-manager",
+      "score": 95,
+      "competenceLevel": "Expert",
+      "weakAreas": [],
+      "lastActive": "2026-03-25T12:00:00Z",
+      "categoryScores": {
+        "responsibilities": 100,
+        "procedures": 95,
+        "requirements": 90,
+        "scenarios": 95
+      }
+    },
+    {
+      "id": "emp-6",
+      "name": "Ion Georgescu",
+      "role": "site-manager",
+      "score": 45,
+      "competenceLevel": "Needs Development",
+      "weakAreas": ["all"],
+      "lastActive": "2026-03-10T09:00:00Z",
+      "categoryScores": {
+        "responsibilities": 50,
+        "procedures": 40,
+        "requirements": 45,
+        "scenarios": 45
+      }
+    }
+  ]
+}

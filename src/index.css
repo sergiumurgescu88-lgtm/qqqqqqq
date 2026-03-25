@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00A651;
+  --color-primary-dark: #008842;
+  --color-secondary: #000000; /* Pure black for maximum contrast */
+  --color-accent: #FFD700; /* Gold for high-visibility accents */
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    /* Increase base font size for mobile readability */
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-white text-secondary antialiased;
+    /* Prevent text selection on buttons for glove usage */
+    user-select: none;
+  }
+
+  /* Ensure all interactive elements have a minimum touch target size */
+  button, a, input, select {
+    min-height: 48px;
+    min-width: 48px;
+  }
+
+  /* High contrast mode for readability in direct sunlight */
+  @media (prefers-contrast: more) {
+    :root {
+      --color-primary: #008000;
+      --color-secondary: #000000;
+    }
+  }
+
+  /* Support for reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Custom utility for sunlight readability */
+.sun-readable {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+}

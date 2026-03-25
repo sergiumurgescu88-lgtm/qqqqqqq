@@ -1,0 +1,105 @@
+{
+  "roleId": "ssm-specialist",
+  "roleName": "Specialist SSM (Securitate și Sănătate în Muncă)",
+  "department": "HSE / SSM",
+  "responsibilities": [
+    {
+      "id": "resp-1",
+      "text": "Elaborarea, actualizarea și monitorizarea aplicării Planului de Securitate și Sănătate (PSS) pe șantierele de parcuri fotovoltaice.",
+      "priority": "high"
+    },
+    {
+      "id": "resp-2",
+      "text": "Efectuarea instruirii introductiv-generale și periodice a personalului propriu și a subcontractanților.",
+      "priority": "high"
+    },
+    {
+      "id": "resp-3",
+      "text": "Identificarea pericolelor și evaluarea riscurilor pentru fiecare post de lucru și activitate specifică.",
+      "priority": "high"
+    },
+    {
+      "id": "resp-4",
+      "text": "Verificarea zilnică a utilizării corecte a Echipamentului Individual de Protecție (EIP) de către lucrători.",
+      "priority": "high"
+    },
+    {
+      "id": "resp-5",
+      "text": "Investigarea incidentelor, accidentelor de muncă și a evenimentelor de tip near-miss conform legislației în vigoare.",
+      "priority": "high"
+    },
+    {
+      "id": "resp-6",
+      "text": "Menținerea relației cu autoritățile de control (ITM) și participarea la inspecțiile acestora.",
+      "priority": "high"
+    },
+    {
+      "id": "resp-7",
+      "text": "Elaborarea instrucțiunilor proprii de securitate a muncii adaptate tehnologiilor specifice Waldevar.",
+      "priority": "medium"
+    },
+    {
+      "id": "resp-8",
+      "text": "Organizarea și coordonarea ședințelor Comitetului de Securitate și Sănătate în Muncă (CSSM).",
+      "priority": "medium"
+    }
+  ],
+  "requirements": [
+    {
+      "text": "Studii superioare tehnice (Inginerie).",
+      "mandatory": true,
+      "category": "experience"
+    },
+    {
+      "text": "Curs postuniversitar/master în domeniul SSM (minim 80 ore).",
+      "mandatory": true,
+      "category": "certification"
+    },
+    {
+      "text": "Experiență minim 3 ani în coordonare SSM pe șantiere de construcții sau energie.",
+      "mandatory": true,
+      "category": "experience"
+    },
+    {
+      "text": "Cunoașterea aprofundată a Legii 319/2006 și HG 300/2006.",
+      "mandatory": true,
+      "category": "skill"
+    },
+    {
+      "text": "Permis de conducere categoria B (disponibilitate deplasare șantiere).",
+      "mandatory": true,
+      "category": "logistics"
+    }
+  ],
+  "procedures": [
+    "SOP-SSM-001 (Instruire și Testare)",
+    "SOP-SSM-002 (Gestiune EIP)",
+    "SOP-SSM-003 (Lucru la Înălțime)",
+    "Legea 319/2006",
+    "HG 300/2006",
+    "HG 1425/2006"
+  ],
+  "successMetrics": [
+    "Zero accidente de muncă cu incapacitate temporară (ITM) pe proiectele alocate.",
+    "100% rată de conformitate la auditurile externe și controalele ITM.",
+    "Timp de raportare a incidentelor/near-miss < 12 ore de la producere.",
+    "Grad de utilizare a EIP pe șantier de 100% (verificat prin audituri zilnice)."
+  ],
+  "workflowContext": {
+    "upstream": [
+      "Project Manager",
+      "Site Manager",
+      "HSE Director"
+    ],
+    "downstream": [
+      "Șefi de echipă",
+      "Lucrători șantier",
+      "Subcontractanți"
+    ],
+    "keyDocuments": [
+      "Plan de Securitate și Sănătate (PSS)",
+      "Fișe de instruire individuală",
+      "Registru de coordonare șantier"
+    ]
+  }
+}

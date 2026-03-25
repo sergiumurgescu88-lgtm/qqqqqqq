@@ -1,0 +1,5 @@
+{
+  "name": "Waldevar Role Source of Truth",
+  "description": "Sursă unică de adevăr pentru rolurile Waldevar, generând structuri JSON pentru modulele de training și operare.",
+  "requestFramePermissions": []
+}

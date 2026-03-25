@@ -1,0 +1,299 @@
+{
+  "roleId": "site-manager",
+  "roleName": "Site Manager (Șef de Șantier)",
+  "department": "Operațiuni / Construcții",
+  "module0": {
+    "title": "Misiunea Ta la Waldevar",
+    "introduction": "Nu ești doar un coordonator de șantier. Ești cel care transformă schițele tehnice în realitate energetică, asigurându-te că viziunea Waldevar prinde viață sub soare.",
+    "summary": "Munca ta este puntea dintre proiectare și producție. Fără tine, energia verde rămâne doar un plan pe hârtie. Cu tine, ea devine o forță care alimentează viitorul.",
+    "bricks": [
+      {
+        "id": "b1",
+        "label": "Coordonarea Execuției",
+        "priority": "Critic",
+        "narrative": "Dirijezi simfonia construcției.",
+        "whyItMatters": "Fiecare panou montat la timp înseamnă energie verde mai aproape de casele oamenilor și un pas uriaș către independența energetică.",
+        "value": "Echipă",
+        "icon": "Zap"
+      },
+      {
+        "id": "b2",
+        "label": "Siguranța SSM",
+        "priority": "Maximă",
+        "narrative": "Ești gardianul vieții pe șantier.",
+        "whyItMatters": "Inspecțiile tale nu sunt birocrație; sunt promisiunea că la finalul zilei, fiecare coleg se întoarce acasă, la familia sa, în deplină siguranță.",
+        "value": "Siguranță",
+        "icon": "Shield"
+      },
+      {
+        "id": "b3",
+        "label": "Controlul Calității",
+        "priority": "Maximă",
+        "narrative": "Semnezi pentru excelență.",
+        "whyItMatters": "Calitatea pe care o garantezi astăzi asigură că parcul fotovoltaic va produce energie curată timp de 30 de ani, fără defecte sau riscuri.",
+        "value": "Calitate",
+        "icon": "CheckCircle"
+      },
+      {
+        "id": "b4",
+        "label": "Gestiune Resurse",
+        "priority": "Important",
+        "narrative": "Ești arhitectul eficienței.",
+        "whyItMatters": "Prin grija ta pentru materiale și utilaje, protejezi resursele planetei și asiguri sustenabilitatea economică a fiecărui proiect.",
+        "value": "Inovație",
+        "icon": "Box"
+      }
+    ],
+    "trophies": [
+      {
+        "label": "Promisiunea Siguranței",
+        "value": "0 Incidente",
+        "description": "Fiecare zi fără incidente este o victorie a grijii tale pentru viața colegilor."
+      },
+      {
+        "label": "Mândria Calității",
+        "value": "0 Neconformități",
+        "description": "Standardul tău de aur înseamnă că lucrarea este perfectă din prima încercare."
+      },
+      {
+        "label": "Cuvântul Respectat",
+        "value": "100% Termene",
+        "description": "Respectarea graficului este dovada respectului tău pentru timpul beneficiarului și al echipei."
+      }
+    ],
+    "workflow": {
+      "inputs": ["Project Manager (Obiective)", "Technical Director (Proiect)"],
+      "role": "Site Manager (Tu)",
+      "outputs": ["Echipe Execuție (Direcție)", "Mentenanță (Moștenire)"]
+    }
+  },
+  "assessment": [
+    {
+      "id": "q1",
+      "category": "responsibilities",
+      "question": "Care este responsabilitatea principală a Șefului de Șantier în ceea ce privește activitățile zilnice pe teren?",
+      "options": [
+        "Negocierea prețurilor cu furnizorii de panouri fotovoltaice",
+        "Coordonarea și supravegherea directă a execuției lucrărilor conform proiectului",
+        "Proiectarea structurilor metalice de susținere",
+        "Recrutarea personalului administrativ pentru sediul central"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Șeful de șantier este responsabil de implementarea proiectului pe teren, coordonând echipele pentru a respecta planul tehnic.",
+      "source": "Fișa Postului, Secțiunea Responsabilități Operaționale, pct. 1.1"
+    },
+    {
+      "id": "q2",
+      "category": "responsibilities",
+      "question": "Cine are obligația de a verifica dacă subcontractanții respectă graficul de execuție stabilit?",
+      "options": [
+        "Departamentul de Contabilitate",
+        "Șeful de Șantier (Site Manager)",
+        "Echipa de Mentenanță",
+        "Beneficiarul final al proiectului"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Monitorizarea progresului subcontractanților este o sarcină directă a Șefului de Șantier pentru a evita întârzierile.",
+      "source": "Fișa Postului, Secțiunea Managementul Subcontractanților, pct. 2.3"
+    },
+    {
+      "id": "q3",
+      "category": "responsibilities",
+      "question": "Ce acțiune trebuie să întreprindă Șeful de Șantier la recepția materialelor pe șantier?",
+      "options": [
+        "Să le depoziteze fără verificare pentru a câștiga timp",
+        "Să verifice conformitatea cantitativă și calitativă cu documentele de însoțire",
+        "Să solicite Project Managerului să vină pe teren pentru descărcare",
+        "Să trimită materialele direct către echipele de montaj fără proces verbal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Verificarea materialelor la recepție previne utilizarea unor componente defecte sau lipsa acestora, care ar bloca fluxul de lucru.",
+      "source": "Fișa Postului, Secțiunea Gestiune Resurse, pct. 4.1"
+    },
+    {
+      "id": "q4",
+      "category": "responsibilities",
+      "question": "Cât de des trebuie raportat progresul lucrărilor către Project Manager?",
+      "options": [
+        "O singură dată, la finalizarea întregului parc fotovoltaic",
+        "Zilnic, prin rapoarte de activitate și stadiu fizic",
+        "Doar atunci când apar probleme majore sau întârzieri",
+        "Lunar, pentru procesarea facturilor subcontractanților"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Raportarea zilnică asigură transparența și permite ajustarea rapidă a resurselor în caz de nevoie.",
+      "source": "Fișa Postului, Secțiunea Raportare și Comunicare, pct. 5.2"
+    },
+    {
+      "id": "q5",
+      "category": "responsibilities",
+      "question": "Care este rolul Șefului de Șantier în asigurarea calității execuției?",
+      "options": [
+        "Să ignore micile abateri dacă termenul limită este aproape",
+        "Să verifice respectarea detaliilor de execuție din proiectul tehnic",
+        "Să lase controlul calității exclusiv în sarcina subcontractanților",
+        "Să modifice proiectul pe teren fără consultarea proiectantului"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Respectarea proiectului tehnic este esențială pentru performanța pe termen lung a parcului fotovoltaic.",
+      "source": "Fișa Postului, Secțiunea Controlul Calității, pct. 3.1"
+    },
+    {
+      "id": "q6",
+      "category": "procedures",
+      "question": "În cazul unui incident SSM pe șantier, care este prima procedură obligatorie?",
+      "options": [
+        "Continuarea lucrărilor pentru a nu pierde bonusul de performanță",
+        "Securizarea zonei și raportarea imediată către responsabilul SSM și conducere",
+        "Ascunderea incidentului dacă nu există răniți grav",
+        "Chemarea presei pentru a documenta evenimentul"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Siguranța este prioritatea zero; raportarea imediată permite investigarea corectă și prevenirea repetării.",
+      "source": "SOP-SSM-001, Secțiunea Managementul Incidentelor, pct. 2.1"
+    },
+    {
+      "id": "q7",
+      "category": "procedures",
+      "question": "Cum trebuie gestionată o neconformitate tehnică identificată pe teren?",
+      "options": [
+        "Prin documentare în Registrul de Neconformități și stabilirea măsurilor corective",
+        "Prin acoperirea defectului cu alte materiale pentru a nu fi observat",
+        "Prin ignorare, dacă nu afectează aspectul vizual al parcului",
+        "Prin delegarea responsabilității către echipa de mentenanță viitoare"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Identificarea și corectarea timpurie a neconformităților este singura cale spre un standard de aur.",
+      "source": "SOP-QLTY-002, Secțiunea Controlul Neconformităților, pct. 4.3"
+    },
+    {
+      "id": "q8",
+      "category": "procedures",
+      "question": "Care este procedura corectă pentru aprobarea unei modificări tehnice față de proiectul inițial?",
+      "options": [
+        "Modificarea directă pe teren, fără anunț prealabil",
+        "Solicitarea aprobării scrise de la Directorul Tehnic sau Proiectant",
+        "Consultarea echipei de montaj și luarea unei decizii verbale",
+        "Așteptarea finalizării lucrării și raportarea modificării la recepție"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Orice abatere de la proiect trebuie validată tehnic pentru a nu compromite structura sau randamentul.",
+      "source": "SOP-ENG-005, Secțiunea Managementul Schimbării, pct. 1.4"
+    },
+    {
+      "id": "q9",
+      "category": "procedures",
+      "question": "Ce document trebuie verificat obligatoriu înainte de începerea unei activități cu risc ridicat (ex. lucru la înălțime)?",
+      "options": [
+        "Lista de prezență a angajaților",
+        "Permisul de lucru și planul de prevenire și protecție",
+        "Factura de achiziție a echipamentelor",
+        "Certificatul de garanție al panourilor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Permisul de lucru atestă că toate măsurile de siguranță au fost luate înainte de începerea activității periculoase.",
+      "source": "SOP-SSM-004, Secțiunea Lucrări cu Risc Ridicat, pct. 3.2"
+    },
+    {
+      "id": "q10",
+      "category": "procedures",
+      "question": "Cum se finalizează oficial predarea unei secțiuni de parc fotovoltaic către beneficiar?",
+      "options": [
+        "Printr-un simplu e-mail de confirmare a finalizării",
+        "Prin semnarea unui Proces Verbal de Recepție Parțială",
+        "Prin predarea cheilor de la gardul perimetral",
+        "Prin trimiterea facturii finale de execuție"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Procesul verbal este documentul juridic care atestă calitatea și cantitatea lucrărilor predate.",
+      "source": "SOP-ADM-008, Secțiunea Recepția Lucrărilor, pct. 5.1"
+    },
+    {
+      "id": "q11",
+      "category": "requirements",
+      "question": "Care este nivelul minim de studii solicitat pentru ocuparea postului de Site Manager?",
+      "options": [
+        "Studii medii (Liceu profil teoretic)",
+        "Studii superioare tehnice (Inginerie)",
+        "Curs de calificare scurtă durată în construcții",
+        "Studii superioare în domeniul economic sau juridic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complexitatea tehnică a parcurilor fotovoltaice necesită cunoștințe solide de inginerie.",
+      "source": "Fișa Postului, Secțiunea Cerințe de Studii, pct. A.1"
+    },
+    {
+      "id": "q12",
+      "category": "requirements",
+      "question": "Ce tip de autorizație este considerată un avantaj major sau obligatorie pentru supravegherea lucrărilor electrice?",
+      "options": [
+        "Permis de conducere categoria C+E",
+        "Autorizație ANRE (grad minim IIB)",
+        "Certificat de participare la cursuri de prim ajutor",
+        "Atestat de detectiv particular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Autorizația ANRE confirmă competența legală de a supraveghea și valida instalații electrice.",
+      "source": "Fișa Postului, Secțiunea Certificări, pct. B.2"
+    },
+    {
+      "id": "q13",
+      "category": "requirements",
+      "question": "Care este experiența minimă relevantă solicitată în coordonarea șantierelor de construcții/energie?",
+      "options": [
+        "Nu este necesară experiență anterioară",
+        "Minim 3 ani în roluri de coordonare sau execuție tehnică",
+        "Minim 6 luni de practică în timpul facultății",
+        "Minim 10 ani exclusiv în proiectare de birou"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Experiența practică este vitală pentru gestionarea situațiilor neprevăzute de pe teren.",
+      "source": "Fișa Postului, Secțiunea Experiență Profesională, pct. C.1"
+    },
+    {
+      "id": "q14",
+      "category": "scenarios",
+      "difficulty": "basic",
+      "question": "[SCENARIU] Ora 08:30, șantier parc fotovoltaic. Observați un electrician care lucrează la înălțime pe o scară, fără a purta centura de siguranță ancorată, deși punctul de ancorare este disponibil. Care este prima acțiune obligatorie conform procedurii Waldevar?",
+      "options": [
+        "Opriți imediat lucrul și solicitați ancorarea corectă înainte de continuare",
+        "Îl lăsați să termine sarcina curentă pentru a nu întrerupe fluxul, apoi îi faceți un instructaj",
+        "Notați abaterea în raportul zilnic și raportați la finalul zilei către PM",
+        "Solicitați șefului de echipă să rezolve problema când are un moment liber"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Siguranța vieții este prioritatea zero la Waldevar. Orice abatere de la normele de lucru la înălțime impune oprirea imediată a activității până la remediere.",
+      "source": "SOP-SSM-001, Secțiunea 4.2 - Lucrul la înălțime"
+    },
+    {
+      "id": "q15",
+      "category": "scenarios",
+      "difficulty": "intermediate",
+      "question": "[SCENARIU] O livrare de 500 de module fotovoltaice ajunge pe șantier la ora 16:30. Observați că 2 paleți au folia ruptă și colțurile cutiilor ușor lovite. Echipa de montaj are nevoie de ele mâine dimineață. Cum gestionați recepția?",
+      "options": [
+        "Recepționați materialele cu mențiuni clare pe CMR/Aviz despre daune, faceți fotografii și notificați imediat logistica",
+        "Refuzați întreaga livrare pentru a evita orice risc de neconformitate ulterior",
+        "Descărcați paleții și îi puneți în spate, sperând că modulele din interior nu sunt afectate",
+        "Semnați recepția fără obiecții pentru a nu întârzia transportatorul și verificați modulele a doua zi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Procedura de recepție impune documentarea oricărei suspiciuni de daună la momentul primirii pentru a putea activa garanția sau asigurarea, protejând activele companiei.",
+      "source": "SOP-LOG-002, Secțiunea Recepție Materiale, pct. 3.1"
+    },
+    {
+      "id": "q16",
+      "category": "scenarios",
+      "difficulty": "advanced",
+      "question": "[SCENARIU] Un subcontractant raportează finalizarea structurii metalice (100%). La verificarea prin sondaj, observați că 10% din șuruburi nu sunt strânse la cuplul specificat. PM-ul solicită raportul de progres pentru validarea facturii. Ce decizie luați?",
+      "options": [
+        "Raportați progresul ca fiind 90% (realizat calitativ) și condiționați validarea de remedierea strângerilor",
+        "Raportați 100% pentru a nu bloca plățile, dar cereți subcontractantului să rezolve problema ulterior",
+        "Raportați 0% pentru zona respectivă până când întreaga structură este verificată bucată cu bucată",
+        "Validați raportul subcontractantului și lăsați echipa de control calitate (QC) să identifice problemele la recepția finală"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Site Managerul este garantul realității din teren. Raportarea unui progres care nu respectă standardul de calitate este o eroare de management; integritatea raportării este esențială.",
+      "source": "SOP-PM-005, Monitorizarea și Raportarea Progresului"
+    }
+  ]
+}
